@@ -1,0 +1,5 @@
+INFO    2020-07-20 15:44:05,037 [main] com.qa.base.BasePage  - Config property file is loaded
+INFO    2020-07-20 15:44:05,038 [main] com.qa.base.BasePage  - OR property file is loaded
+INFO    2020-07-20 15:44:09,329 [main] com.qa.base.BasePage  - Chrome is Launched 
+INFO    2020-07-20 15:44:11,708 [main] com.qa.base.BasePage  - Navigated to:https://www.zoho.com/
+INFO    2020-07-20 15:44:15,286 [main] com.qa.base.BasePage  - Clicking on : loginLink_XPATH

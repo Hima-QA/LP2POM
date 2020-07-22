@@ -1,0 +1,13 @@
+INFO    2020-07-21 17:40:24,796 [main] com.qa.base.BasePage  - Config property file is loaded
+INFO    2020-07-21 17:40:24,798 [main] com.qa.base.BasePage  - OR property file is loaded
+INFO    2020-07-21 17:40:28,956 [main] com.qa.base.BasePage  - Chrome is Launched 
+INFO    2020-07-21 17:40:30,920 [main] com.qa.base.BasePage  - Navigated to:https://www.zoho.com/
+INFO    2020-07-21 17:40:34,669 [main] com.qa.base.BasePage  - Clicking on : loginLink_XPATH
+INFO    2020-07-21 17:40:34,983 [main] com.qa.base.BasePage  - Typing in an element : emailLogin_XPATH entered value as testtek789@gmail.com
+INFO    2020-07-21 17:40:35,078 [main] com.qa.base.BasePage  - Clicking on : nextBtn_XPATH
+INFO    2020-07-21 17:40:35,337 [main] com.qa.base.BasePage  - Typing in an element : password_XPATH entered value as zoho@test123
+INFO    2020-07-21 17:40:35,421 [main] com.qa.base.BasePage  - Clicking on : signinBtn_XPATH
+INFO    2020-07-21 17:40:51,566 [main] com.qa.base.BasePage  - Clicking on : CRM_XPATH
+INFO    2020-07-21 17:40:51,841 [main] com.qa.base.BasePage  - Clicking on : accounts_XPATH
+INFO    2020-07-21 17:40:54,036 [main] com.qa.base.BasePage  - Clicking on : createAccBtn_XPATH
+INFO    2020-07-21 17:40:55,408 [main] com.qa.base.BasePage  - Typing in an element : accName_ID entered value as Sima
