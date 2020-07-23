@@ -21,6 +21,7 @@ public class CreateAccountTest {
 		AccountPage accPg = BasePage.tmenu.gotoAccounts();
 		CreateAccountPage ap = accPg.gotoCreateAccount();
 		ap.createAccount(data.get("accountName"));
+		ap.createAccount(data.get("accSite_ID"));
 		Assert.fail("Purposefully failed  msg");
 
 	}
