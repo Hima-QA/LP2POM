@@ -172,7 +172,7 @@ public class BasePage {
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
 			
 			//Adding explicit wait
-			wait = new WebDriverWait(driver,5);
+			wait = new WebDriverWait(driver,120);
 			tmenu = new TopMenu(driver);
 			
 
@@ -186,7 +186,7 @@ public class BasePage {
 	
 	
 	//Checking if ElementPresent or not
-		public boolean isElementPresent(By by) {
+		public static boolean isElementPresent(By by) {
 
 			try {
 

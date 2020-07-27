@@ -3,6 +3,7 @@ package com.qa.rough;
 import com.qa.base.BasePage;
 import com.qa.crm.acc.pages.AccountPage;
 import com.qa.crm.acc.pages.CreateAccountPage;
+import com.qa.crm.acc.pages.ImportAccountPage;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.pages.ZohoAppPage;
@@ -32,7 +33,10 @@ public class LoginTest {
 		zap.goToCRM();
 		AccountPage accPg = BasePage.tmenu.gotoAccounts();
 		CreateAccountPage cAp = accPg.gotoCreateAccount();
-		cAp.createAccount("Sima");
+		cAp.createAccount("Sima","vvgvgv");
+		AccountPage accPg1 = BasePage.tmenu.gotoAccounts();
+		
+		ImportAccountPage iap = accPg1.gotoImportAccount();
 	}
 
 }

@@ -24,6 +24,13 @@
 			<class name="com.qa.testcases.CreateAccountTest" />
 		</classes>
 	</test>
+	
+	<test name="Import Account Test">
+		<classes>
+			<class name="com.qa.testcases.ImportAccountTest" />
+		</classes>
+	</test>
+	
 
 	<!-- Test -->
 </suite> <!-- PageObjectModel Zoho -->

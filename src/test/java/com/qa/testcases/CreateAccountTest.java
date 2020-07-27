@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.qa.base.BasePage;
 import com.qa.crm.acc.pages.AccountPage;
 import com.qa.crm.acc.pages.CreateAccountPage;
+import com.qa.crm.acc.pages.SavedAccountPage;
 import com.qa.pages.ZohoAppPage;
 import com.qa.utilities.MyUtilities;
 
@@ -19,10 +20,15 @@ public class CreateAccountTest {
 		ZohoAppPage zap = new ZohoAppPage();
 		zap.goToCRM();
 		AccountPage accPg = BasePage.tmenu.gotoAccounts();
+		
 		CreateAccountPage ap = accPg.gotoCreateAccount();
-		ap.createAccount(data.get("accountName"));
-		//ap.createAccount(data.get("accountSite"));
-		Assert.fail("Purposefully failed  msg");
-
+		ap.createAccount(data.get("accountName"),data.get("accountSite"));
+		
+		
+		 SavedAccountPage sap = new SavedAccountPage();
+		 sap.savedAccountPage();
+		 
+		//Assert.fail("Purposefully failed  msg");
 	}
+	
 }
